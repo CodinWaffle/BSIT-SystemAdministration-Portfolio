@@ -71,8 +71,8 @@ See `Week01/screenshots/` for verification screenshots of Git, GitHub Desktop, V
 
 # Challenges Encountered
 
-1. **Ubuntu install hanging due to a wrong boot option**
-   During my first attempt to install Ubuntu Server, I accidentally selected an install mode other than the standard graphical "Try or Install Ubuntu" option. The installer got stuck on "Copying files..." for over an hour, and the logs showed a repeating `rsync: connection unexpectedly closed` error. I resolved this by powering off the VM, deleting it, and starting a fresh install using the correct boot option.
+1. **Ubuntu Server install hanging during file copy**
+   During my first attempt to install Ubuntu Server, the installer got stuck on "Copying files..." for over an hour, and the logs showed a repeating `rsync: connection unexpectedly closed` error. I resolved this by powering off the VM, deleting it, and starting a fresh install.
 
 2. **Kernel crash during file extraction**
    On a later attempt, the install crashed with a kernel panic while `rsync` was extracting install files, likely due to insufficient RAM allocated to the VM (2048 MB). I increased the VM's base memory to 4096 MB, which allowed the installation to complete successfully without further crashes.
