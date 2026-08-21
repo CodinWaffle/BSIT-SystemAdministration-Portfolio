@@ -23,8 +23,8 @@ NexaCore Solutions is a 20-employee software development startup with four depar
 - VS Code, Git, GitHub Desktop, and VirtualBox for the development team
 - Microsoft Defender for endpoint security, AnyDesk for remote support
 
-## Embedded Network Diagram
-![Network Diagram](diagrams/NetworkDiagram.png)
+## Network Diagram
+ <img width="1081" height="721" alt="Image" src="https://github.com/user-attachments/assets/5fe1a991-e5d1-41ee-a83f-84965ddd3cea" />
 
 The topology flows from Internet → ISP Modem → Router → Firewall → Core Switch, branching out to the Wireless Access Point, Server, Printer, and all four department networks (Sales connects via Wi-Fi).
 
